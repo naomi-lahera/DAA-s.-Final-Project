@@ -1,5 +1,5 @@
-def first_fit_decreasing(items, bin_capacity=1):
-    items.sort(reverse=True)
+def first_fit(items, bin_capacity=1):
+    # items.sort(reverse=True)
     bins = []
     
     for item in items:
