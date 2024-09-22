@@ -25,6 +25,7 @@ def maximize_score_bs(a, k):
                 elif a[i][1] == 1:
                     smaller_list.append(mid - a[i][0])  # Lista de números menores que mid pero con indicador 1
             
+            print(smaller_list)
             smaller_list.sort(reverse=True) 
             
             kk = k
